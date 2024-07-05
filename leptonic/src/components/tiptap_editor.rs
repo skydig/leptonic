@@ -28,7 +28,7 @@ pub fn TiptapEditor(
             { move || match disabled.get() {
                 false => view! {
                     <leptonic-tiptap-menu>
-                        view!{}.into_view()
+                        assets
                     </leptonic-tiptap-menu>
                 }.into_view(),
                 true => ().into_view(),
