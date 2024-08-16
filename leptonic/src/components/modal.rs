@@ -144,7 +144,7 @@ pub fn Modal(
         .into()
     });
 
-    create_isomorphic_effect(move |_| match shown.get() {
+    create_isomorphic_effect(move |_| match show_when.get() {
         true => ctx.push_shown(ShownModalData {
             key,
             children: modal.clone(),
