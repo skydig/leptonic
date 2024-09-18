@@ -25,14 +25,6 @@ pub fn TiptapEditor(
 
     view! {
         <leptonic-tiptap-editor id=id class=class>
-            { move || match disabled.get() {
-                false => view! {
-                    <leptonic-tiptap-menu>
-                        assets
-                    </leptonic-tiptap-menu>
-                }.into_view(),
-                true => ().into_view(),
-            } }
             <TiptapInstance
                 id=instance_id.to_string()
                 msg=msg

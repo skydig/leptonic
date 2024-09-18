@@ -52,7 +52,7 @@ pub fn PageLink() -> impl IntoView {
                 "#)}
             </Code>
 
-            <LinkExt href="https://github.com/lpotthast/leptonic" target=LinkExtTarget::Sel>
+            <LinkExt href="https://github.com/lpotthast/leptonic" target=LinkExtTarget::Sel >
                 <Icon id="github-icon" icon=icondata::BsGithub style="font-size: 3em;"/>
             </LinkExt>
 

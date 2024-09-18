@@ -182,9 +182,9 @@ where
                     e.prevent_default();
                     e.stop_propagation();
                     if let Some(preselected) = preselected.get_untracked() {
-                        if !is_disabled_untracked(&preselected) {
+                       // if !is_disabled_untracked(&preselected) {
                             select.consume(preselected);
-                        }
+                       // }
                     }
                 }
                 _ => {}
@@ -284,9 +284,9 @@ where
                                         set_preselected.set(Some(clone3.clone()));
                                     }
                                     on:click=move |_e| {
-                                        if !is_disabled_untracked(&clone2) {
+                                     //   if !is_disabled_untracked(&clone2) {
                                             select.consume(clone2.clone());
-                                        }
+                                      //  }
                                     }
                                 >
                                     { render_option.render(clone1) }
@@ -418,9 +418,9 @@ where
                     e.prevent_default();
                     e.stop_propagation();
                     if let Some(preselected) = preselected.get_untracked() {
-                        if !is_disabled_untracked(&preselected) {
+                     //   if !is_disabled_untracked(&preselected) {
                             select.consume(preselected);
-                        }
+                       // }
                     }
                 }
                 _ => {}
@@ -539,9 +539,9 @@ where
                                         set_preselected.set(Some(clone3.clone()));
                                     }
                                     on:click=move |_e| {
-                                        if !is_disabled_untracked(&clone2) {
+                                     //   if !is_disabled_untracked(&clone2) {
                                             select.consume(clone2.clone());
-                                        }
+                                      //  }
                                     }
                                 >
                                     { render_option.render(clone1) }
@@ -689,9 +689,9 @@ where
                     e.prevent_default();
                     e.stop_propagation();
                     if let Some(preselected) = preselected.get_untracked() {
-                        if !is_disabled_untracked(&preselected) {
+                      //  if !is_disabled_untracked(&preselected) {
                             select.consume(preselected);
-                        }
+                     //   }
                     }
                 }
                 _ => {}
@@ -808,9 +808,9 @@ where
                                         set_preselected.set(Some(clone3.clone()));
                                     }
                                     on:click=move |_e| {
-                                        if !is_disabled_untracked(&clone2) {
+                                      //  if !is_disabled_untracked(&clone2) {
                                             select.consume(clone2.clone());
-                                        }
+                                      //  }
                                     }
                                 >
                                     { render_option.render(clone1) }

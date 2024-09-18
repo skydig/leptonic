@@ -9,8 +9,8 @@ leptonic-tiptap-editor {
         flex-wrap: wrap;
         border: 1px solid var(--tiptap-editor-border-color);
         border-bottom: none;
-        gap: 0.3em;
-        padding: 1em;
+        gap: 0.1em;
+        padding: 0.2em;
 
         .leptonic-btn[variant="filled"].leptonic-tiptap-btn {
             display: flex;
@@ -44,7 +44,7 @@ leptonic-tiptap-editor {
         border: 1px solid var(--tiptap-editor-border-color);
         color: var(--tiptap-editor-instance-color);
         background-color: var(--tiptap-editor-instance-background-color);
-        padding: 0 1em;
+        padding: 0 0.1em;
 
         img {
             width: auto;
