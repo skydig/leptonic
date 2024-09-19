@@ -64,7 +64,7 @@ leptonic-table {
     &.select {
       vertical-align: top;
       padding-left: 1.25em;
-      padding-right: 0.25em;
+      padding-right: 0.5em;
       padding-top: 1em;
     }
   }
@@ -73,7 +73,6 @@ leptonic-table {
     padding: var(--table-body-cell-padding);
     text-align: start;
     vertical-align: top;
-    box-sizing: border-box;
 
     &:hover {
       //box-shadow: $-cell-box-shadow-on-hover;
@@ -87,9 +86,9 @@ leptonic-table {
 
     &.select {
       vertical-align: top;
-      padding-left: 1.25em;
-      padding-right: 0.25em;
-      padding-top: 0.9em;
+      padding-left: 1.00em;
+      padding-right: 0.05em;
+      padding-top: 0.09em;
     }
   }
 
