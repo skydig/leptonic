@@ -78,9 +78,9 @@ leptonic-table {
       //box-shadow: $-cell-box-shadow-on-hover;
 
       .leptonic-table-cell {
-        .inline-edit-trigger {
+       
           visibility: visible;
-        }
+     
       }
     }
 
@@ -103,7 +103,7 @@ leptonic-table {
       }
     }
     leptonic-table-row:last-of-type {
-      border-bottom: 1px solid var(--table-row-border-bottom-color);
+      border-bottom: none;
     }
 
     leptonic-table-cell.no-data {
