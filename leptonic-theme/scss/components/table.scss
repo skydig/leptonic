@@ -88,7 +88,7 @@ leptonic-table {
       vertical-align: top;
       padding-left: 1.25em;
       padding-right: 0.25em;
-      padding-top: 0.09em;
+      padding-top: 0.9em;
     }
   }
 
@@ -103,7 +103,7 @@ leptonic-table {
       }
     }
     leptonic-table-row:last-of-type {
-      border-bottom: none;
+      border-bottom: 1px solid var(--table-row-border-bottom-color);
     }
 
     leptonic-table-cell.no-data {
