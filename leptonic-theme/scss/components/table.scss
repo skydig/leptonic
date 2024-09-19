@@ -73,14 +73,14 @@ leptonic-table {
     padding: var(--table-body-cell-padding);
     text-align: start;
     vertical-align: top;
-
+    pointer-events: auto;
     &:hover {
       //box-shadow: $-cell-box-shadow-on-hover;
 
       .leptonic-table-cell {
-       
+        .inline-edit-trigger {
           visibility: visible;
-     
+        }
       }
     }
 
@@ -94,6 +94,7 @@ leptonic-table {
 
   leptonic-table-body {
     display: table-row-group;
+    pointer-events: none; 
 
     leptonic-table-row {
       border-bottom: 1px solid var(--table-row-border-bottom-color); // 1px instead of 0.005em so that all lines are equally thick.
