@@ -104,6 +104,9 @@ leptonic-table {
     }
     leptonic-table-row:last-of-type {
       border-bottom: none;
+      &.interactable {
+        cursor: pointer;
+      }
     }
 
     leptonic-table-cell.no-data {
