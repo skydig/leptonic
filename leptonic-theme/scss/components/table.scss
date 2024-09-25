@@ -38,6 +38,11 @@ leptonic-table {
     }
   }
 
+  leptonic-table-footer {
+    display: table-header-group;
+    background-color: var(--table-header-background-color);
+  }
+
   leptonic-table-header-cell,
   leptonic-table-cell {
     display: table-cell;
