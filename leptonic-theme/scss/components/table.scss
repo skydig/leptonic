@@ -39,8 +39,7 @@ leptonic-table {
   }
 
   leptonic-table-footer {
-    display: flex;
-    flex-direction: row;
+    display: table-footer-group;
     background-color: var(--table-header-background-color);
   }
 
